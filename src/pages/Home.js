@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Posts from '../components/Posts';
 import axios from 'axios'
 
+/*
+LINK TO DEPLOYED WEBSITE
+Unique Deploy URL: https://60d297f560ab1547e9aaae38--assignment6-arsh.netlify.app/
+Website URL: https://assignment6-arsh.netlify.app/
+*/
 function Home() {
   const [appState, setAppState] = useState({
     loading: false,
